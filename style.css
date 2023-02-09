@@ -1,0 +1,24 @@
+/* Global */
+@import "./css/global/global.css";
+@import "./css/global/resets.css";
+
+/* Header */
+@import "./css/header/superinfo.css";
+@import "./css/header/menu.css";
+
+/* Introducao */
+@import "./css/intro/introducao.css";
+@import "./css/intro/sobre.css";
+
+/* Produtos */
+@import "./css/produtos/produtos.css";
+
+/* Planos */
+@import "./css/planos/preco.css";
+
+/* Vantagens */
+@import "./css/vantagens/qualidade.css";
+
+/* Footer */
+@import "./css/footer/newsletter.css";
+@import "./css/footer/footer.css";

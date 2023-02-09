@@ -1,0 +1,32 @@
+.sobre {
+  border-top: 4px solid var(--color-p2);
+  border-bottom: 4px solid var(--color-p2);
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 5px;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: var(--font-size4);
+  margin-bottom: .5rem;
+}
+
+.sobre-info p {
+  font-size: var(--font-size1);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: var(--color-4);
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+

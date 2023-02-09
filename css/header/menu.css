@@ -1,0 +1,52 @@
+.menu-bg {
+  background: var(--color-p2);
+}
+
+.menu {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: var(--color-1);
+}
+
+.menu-logo {
+  font-size: var(--font-size3);
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-logo a {
+  transition: color .3s;
+}
+
+.menu-logo a:hover {
+  color: var(--color-p1);
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu-nav a {
+  font-size: var(--font-size1);
+  display: block;
+  padding: 10px;
+  transition: color .3s;
+}
+
+.menu-nav a:hover {
+  color: var(--color-p1);
+}
+
+@media (max-width: 600px) {
+  .menu {
+    justify-content: center;
+  }
+}

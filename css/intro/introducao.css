@@ -1,0 +1,19 @@
+.introducao {
+  font-size: var(--font-size4);
+  line-height: 1;
+  padding: 60px 10px;
+}
+
+.introducao span {
+  transition: color .3s;
+}
+
+.introducao span:hover {
+  color: var(--color-p2);
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    text-align: center;
+  }
+}
