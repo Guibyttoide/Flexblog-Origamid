@@ -1,23 +1,69 @@
-.footer {
-  height: 200px;
-  display: flex;
-  background: var(--color-p2);
+.footer-bg {
+  padding: 30px;
+  background: var(--gradient-1);
+}
+
+.footer-flex {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
   align-items: center;
 }
 
-.footer p {
-  flex: 1;
-  text-align: center;
-  font-weight: bold;
-  font-size: var(--font-size3);
-  color: var(--color-p1);
+.footer-flex p {
+  font-size: var(--font-size1);
+  color: var(--color-2);
 }
 
-@media (max-width: 600px) {
+.footer-flex p > span {
+  font-family: "Playfair Display", Roboto, Segoe UI, sans-serif;
+}
+
+.footer-itens div:first-child {
+  margin-bottom: 15px;
+}
+
+.footer-itens a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  color: var(--color-2);
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-itens a:hover {
+  color: var(--color-p6);
+}
+
+@media (max-width: 700px) {
   .footer {
     height: 100px;
   }
-  .footer p {
-    font-size: var(--font-size1);
+  .footer-flex {
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-flex p {
+    margin-bottom: 20px;
+  }
+  .footer-itens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-self: center;
+    gap: 20px;
   }
 }
+
+@media (max-width: 479px) {
+  .footer-bg {
+    padding: 20px;
+  }
+  .footer-flex p {
+    font-size: var(--font-size-1);
+  }
+  .footer-itens a {
+    font-size: var(--font-size-1);
+  }
+}
+

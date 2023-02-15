@@ -1,186 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta name="description" content="Flexblog - Feito durante o curso de Flexbox na Origamid">
 
-  <title>FlexBlog</title>
+  <!-- Informations -->
+  <title>Allyne Lima - Terapeuta Sistêmica</title>
+  <meta name="description" content="Oriento mulheres no seu processo de desenvolvimento pessoal e profissional, consteladora sistêmica.">
+  <meta name="author" content="Allyne Lima" />
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Allyne Lima - Consteladora Sistêmica" />
+  <meta property="og:description" content="Oriento mulheres no seu processo de desenvolvimento pessoal e profissional, consteladora sistêmica." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.allynelima.com.br/" />
+  <meta property="og:site_name" content="Allyne Lima" />
+
+  <!-- Links -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="image_src" href="https://cdn.discordapp.com/attachments/1013932747825365102/1075194454627070023/butterfly-removebg-preview.png">
 
-  <link rel="icon" href="./" type="image/svg+xml">
+  <!-- CSS Style -->
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.min.css" as="style">
-  <link rel="stylesheet" href="./css/style.min.css" type="text/css">
+  <link rel="stylesheet" href="./css/style.min.css" as="text/css">
 </head>
 
 <body>
-  <div class="superinfo-bg">
-    <div class="superinfo maxwidth">
-      <p>Seg / Sex - 08:00 às 18:00</p>
-      <a href="tel:+5521999999999">+55 65 99999-9999</a>
-      <p>Rua Ali Perto, 027, Algum Bairro - MT</p>
-    </div>
-  </div>
-
+  <!-- Header - Menu -->
   <header class="menu-bg">
-    <div class="menu maxwidth">
+    <div class="menu maxwidth sticky">
       <div class="menu-logo">
-        <a href="./">FlexBlog</a>
+        <a href="./">Allyne Lima</a>
       </div>
       <nav class="menu-nav">
         <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#precos">Preços</a></li>
-          <li><a href="#qualidade">Qualidade</a></li>
+          <li><a href="#constelacao">Constelação</a></li>
+          <li><a href="#quemsoueu">Quem sou eu?</a></li>
+          <li><a href="#valores">Valores</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <h1 class="introducao maxwidth"><span>Novos</span> <span>valores</span> <span>e</span><br><span>propriedades</span> <span>de</span> <span>CSS</span></h1>
+  <!-- Intro - Introducao -->
+  <div class="maxwidth" id="constelacao">
+    <h1 class="introducao bordas">Antes de agendar um atendimento é importante que você saiba o que é <br><span>Constelação Sistêmica</span></h1>
 
-  <section class="sobre maxwidth" id="sobre">
+    <!-- Intro - player-video -->
+    <div class="maxwidth">
+      <iframe class="player-video" src="https://www.youtube.com/embed/ay_JcPXI_jY?controls=0" title="O que é Constelação Sistêmica" frameborder="0" allow="autoplay; picture-in-picture; gyroscope; web-share" allowfullscreen="true"></iframe>
+    </div>
+  </div>
+
+  <!-- Intro - Sobre -->
+  <section class="sobre maxwidth" id="quemsoueu">
     <div class="sobre-info">
       <h1>Sobre</h1>
       <p>
-        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
       <p>
-        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
+      <img class="borboleta-enfeite" src="./img/butterfly-outline.svg" alt="">
     </div>
     <div class="sobre-img">
-      <img src="./img/sobre1.jpg" alt="Sobre 1">
-    </div>
-    <div class="sobre-img">
-      <img src="./img/sobre2.jpg" alt="Sobre 2">
+      <img src="./img/foto-allyne.jpg" width="912" height="1368" alt="Sobre 1">
     </div>
   </section>
 
-  <section class="produtos maxwidth" id="produtos">
-    <h1>Produtos</h1>
-    <div class="produtos-container">
-      <div class="produtos-item pink">
-        <h2>Pink</h2>
-        <img src="./img/produtos2.jpg" alt="Produtos 2">
+  <!-- Complemento - Complemento -->
+  <div class="complemento-bg">
+    <div class="maxwidth">
+      <h1 class="complemento-texto">Antes de agendar um atendimento é importante que você saiba o que é <span>Constelação Sistêmica</span></h1>
+
+      <!-- Intro - player-video -->
+      <div class="maxwidth">
+        <iframe class="player-video" src="https://www.youtube.com/embed/DyfOGlxcd2Q?controls=0" title="Entenda porque a Constelação Sistêmica é para você" frameborder="0" allow="autoplay; picture-in-picture; gyroscope; web-share" allowfullscreen="true"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Planos - Preco -->
+  <section class="preco-bg" id="valores">
+    <div class="preco-grid maxwidth">
+      <div class="preco-item">
+        <!-- Plano - 01 -->
+        <h2>Atendimento<br> Online</h2>
+        <span><sup>R$</sup>450,00</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+        </ul>
+        <a href="https://www.asaas.com/c/877993071611" target="_blank">Quero agendar</a>
       </div>
 
-      <div class="produtos-item blue">
-        <h2>Blue</h2>
-        <img src="./img/produtos3.jpg" alt="Produtos 3">
+      <!-- Plano - 02 -->
+      <div class="preco-item">
+        <h2>Atendimento<br> Presencial</h2>
+        <span><sup>R$</sup>480,00</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+        </ul>
+        <a href="https://www.asaas.com/c/310991316667" target="_blank">Quero agendar</a>
       </div>
 
-      <div class="produtos-item purple">
-        <h2>Purple</h2>
-        <img src="./img/produtos1.jpg" alt="Produtos 1">
+      <!-- Plano - 03 -->
+      <div class="preco-item">
+        <h2>Consultoria</h2>
+        <span><sup>R$</sup>1234,56</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Suporte 24h</li>
+        </ul>
+        <a href="https://www.asaas.com/c/458084323541" target="_blank">Quero agendar</a>
       </div>
 
-    </div>
-  </section>
-
-  <section class="preco" id="preco">
-    <div class="preco-item">
-      <h2>Cobre</h2>
-      <span><sup>R$</sup>19</span>
-      <ul>
-        <li>Planos Ilimitados</li>
-        <li>Acesso Restrito</li>
-        <li>Conteúdo Secreto</li>
-        <li>Suporte 24h</li>
-      </ul>
-      <a href="#">Comprar</a>
-    </div>
-
-    <div class="preco-item">
-      <h2>Prata</h2>
-      <span><sup>R$</sup>39</span>
-      <ul>
-        <li>Planos Ilimitados</li>
-        <li>Acesso Restrito</li>
-        <li>Conteúdo Secreto</li>
-        <li>Suporte 24h</li>
-        <li>Compra Exclusiva</li>
-      </ul>
-      <a href="#">Comprar</a>
-    </div>
-
-    <div class="preco-item">
-      <h2>Ouro</h2>
-      <span><sup>R$</sup>79</span>
-      <ul>
-        <li>Planos Ilimitados</li>
-        <li>Acesso Restrito</li>
-        <li>Conteúdo Secreto</li>
-        <li>Suporte 24h</li>
-        <li>Compra Exclusiva</li>
-        <li>Download dos Itens</li>
-      </ul>
-      <a href="#">Comprar</a>
-    </div>
-  </section>
-
-  <section class="qualidade maxwidth" id="qualidade">
-    <div class="qualidade-item">
-      <h2>Inteligente</h2>
-      <p>
-        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão.
-      </p>
-    </div>
-
-    <div class="qualidade-item">
-      <h2>Compacto</h2>
-      <p>
-        O que temos que ter sempre em mente é que a determinaqäo clara de objetivos afeta positivamente a correta previsäo das condigöes inegavelmente
-      </p>
-    </div>
-
-    <div class="qualidade-item">
-      <h2>Econômico</h2>
-      <p>
-        O que temos que ter sempre em mente é que a determinaqäo clara de objetivos afeta positivamente a correta previsäo.
-      </p>
-    </div>
-
-    <div class="qualidade-item">
-      <h2>Transparente</h2>
-      <p>
-        O que temos que ter sempre em mente é que a determinaqäo clara de objetivos afeta positivamente a correta previsäo.
-      </p>
-    </div>
-
-    <div class="qualidade-item">
-      <h2>Opaco</h2>
-      <p>
-        O que temos que ter sempre em mente é que a determinaqäo clara de objetivos afeta positivamente a correta previsäo das condigöes inegavelmente.
-      </p>
-    </div>
-
-    <div class="qualidade-item">
-      <h2>Sustentável</h2>
-      <p>
-        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão.
+      <!-- Plano - 04 -->
+      <div class="preco-item">
+        <h2>Cartas<br> Personalizadas</h2>
+        <span><sup>R$</sup>12,34</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+        </ul>
+        <a href="https://www.asaas.com/c/458084323541" target="_blank">Quero agendar</a>
+      </div>
+      <p class="aviso">
+        *Após o pagamento entrarei em contato via Whatsapp
       </p>
     </div>
   </section>
 
-  <section class="newsletter">
-    <div class="newsletter-info">
-      <h1>Newsletter</h1>
-      <p>Assine e fique por dentro das novidades.</p>
+  <!-- Footer - Footer -->
+  <footer class="footer-bg">
+    <div class="footer-flex maxwidth">
+      <p><span>Allyne Lima</span> © Todos os direitos reservados.</p>
+      <div class="footer-itens">
+        <div>
+          <a href="https://instagram.com/allynelima.terapeutasistemica?igshid=YmMyMTA2M2Y=" target=”_blank”><img src="./img/instagram.svg" width="24" height="24" alt="">@allynelima</a>
+        </div>
+        <div>
+          <a href="https://api.whatsapp.com/send?phone=5565999396670&text=Ol%C3%A1,%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20constela%C3%A7%C3%A3o%20sist%C3%AAmica%20" target="_blank"><img src="./img/whatsapp.svg" width="24" height="24" alt="">Whatsapp</a>
+        </div>
+      </div>
     </div>
-    <form class="newsletter-form">
-      <input type="text" placeholder="Seu e-mail">
-      <button type="submit">Assinar</button>
-    </form>
-  </section>
-
-  <footer class="footer">
-    <p>FlexBIog © Todos os direitos reservados.</p>
   </footer>
 </body>
 

@@ -3,22 +3,18 @@
 @import "./css/global/resets.css";
 
 /* Header */
-@import "./css/header/superinfo.css";
 @import "./css/header/menu.css";
 
 /* Introducao */
 @import "./css/intro/introducao.css";
 @import "./css/intro/sobre.css";
+@import "./css/intro/player-video.css";
 
-/* Produtos */
-@import "./css/produtos/produtos.css";
+/* Complemento */
+@import "./css/complemento/complemento.css";
 
 /* Planos */
 @import "./css/planos/preco.css";
 
-/* Vantagens */
-@import "./css/vantagens/qualidade.css";
-
 /* Footer */
-@import "./css/footer/newsletter.css";
 @import "./css/footer/footer.css";

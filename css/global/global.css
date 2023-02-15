@@ -1,23 +1,29 @@
 :root {
-  --color-p1: #122ab2;
-  --color-p2: #2c70ff;
-  --color-1: #ffffff;
-  --color-2: #f7f7f7; 
-  --color-3: #a4a4a4;
-  --color-4: #7c7c7c;
-  --color-5: #222222;
-  --other-color1: #f9265e;
-  --other-color2: #66d9eb;
-  --other-color3: #ae81ff;
+  --color-1: #FAF5F6;
+  --color-2: #fffcfc;
+  --color-p1: #330606;
+  --color-p2: #733236;
+  --color-p3: #995458;
+  --color-p4: #B26A6F;
+  --color-p5: #E9AEB8;
+  --color-p6: #dfc0c2;
+  --gradient-1: linear-gradient(115deg, #b26a6f 0%, #995458 50%);
+  --gradient-2: radial-gradient(circle, #faf5f6 0%, #fffcfc 90%, #eadcdd 100%);
+  --font-size-1: 0.875rem;
+  --font-size0: 1rem;
   --font-size1: 1.25rem;
   --font-size2: 1.5rem;
   --font-size3: 2.25rem;
   --font-size4: 3rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Nunito', Segoe UI, Helvetica, sans-serif;
-  color: #222222;
+  font-family: "Roboto", Segoe UI, Helvetica, sans-serif;
+  background: var(--gradient-2);
 }
 
 img {
@@ -25,11 +31,16 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 * {
   box-sizing: border-box;
 }
 
 .maxwidth {
-  max-width: 960px;
+  max-width: 940px;
   margin: 0 auto;
 }

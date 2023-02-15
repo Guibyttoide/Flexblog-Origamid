@@ -1,0 +1,40 @@
+.complemento-bg {
+  background: var(--gradient-1);
+  box-shadow: 0 -60px 0 0 inset var(--color-1);
+}
+
+.complemento-texto {
+  display: inline-block;
+  font-size: var(--font-size4);
+  color: var(--color-1);
+  line-height: 1.125;
+  margin: 0 10px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.complemento-texto span {
+  font-family: "Playfair Display", Roboto, Segoe UI, sans-serif;;
+  color: var(--color-2);
+  font-weight: 600;
+  transition: color .3s;
+}
+
+@media (max-width: 700px) {
+  .complemento-texto {
+    font-size: var(--font-size3);
+  }
+}
+
+@media (max-width: 479px) {
+  .complemento-texto {
+    font-size: var(--font-size2);
+    line-height: 1.125;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 400;
+  }
+}
